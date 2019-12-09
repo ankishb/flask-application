@@ -6,4 +6,98 @@
 	<p>
 		This application is built on the Python Flask framework and is the focus for the "Python Flask From Scratch" YouTube series
     </p>
+
+    <br>
+    <br>
+    <br>
+
+    <table>
+    <tr>
+  <!--   <td>
+	<div class="container">
+		<img src="{{url_for('static', filename='cat1.jpeg')}}" />
+		<img src="notebook.jpg" alt="Notebook" style="width:100%;">
+		<div class="content">
+			<h1>Heading</h1>
+			<p>Lorem ipsum..</p>
+		</div>
+	</div> 
+	</td> -->
+
+	<td>
+    <div class="card"> 
+    	<img src="{{url_for('static', filename='cat1.jpeg')}}" />
+     	<!-- <img class="card-img-top" src="cat1.jpeg" alt="Finding donors"> 
+     	 -->
+     	<div class="card-block"> 
+     		<h1 class="card-title">Finding Donors for Charity using Machine Learning</h4> 
+     		<p class="card-text">An Adaboost classifier to accurately predict whether an individual makes more than $50,000, and identify likely donors for a non-profit organisation.</p> 
+     	</div> 
+
+     	<div class="card-buttons"> 
+     		<a href="/portfolio/finding_donors" target="_blank" class="btn btn-primary">Notebook</a> 
+     	</div> 
+
+     	<div class="card-footer"> 
+     		<small class="text-muted">Python, Scikit-learn, Decision Trees, SVM, Adaboost</small> 
+     	</div> 
+     </div> 
+	</td>
+
+	<td>
+     <div class="card"> 
+    	<img src="{{url_for('static', filename='cat1.jpeg')}}" />
+		<!-- <img class="card-img-top" src="cat1.jpeg" alt="Walkability map"> 
+     	 -->
+     	<div class="card-block"> 
+     		<h1 class="card-title">Walkability Analysis of Melbourne</h1> 
+     		<p class="card-text">Statistical and spatial data analysis, including visualizations, for the walkability of Melbourne suburbs.<br><br>Capstone project for The University of Melbourne.</p> 
+     	</div> 
+
+     	<div class="card-buttons"> 
+     		<a href="https://github.com/sajal2692/Scalable-Walkability-Analysis-of-Melbourne" target="_blank" class="btn btn-primary">Github Repo</a> 
+     		<a href="https://drive.google.com/file/d/0B6iWmt6x1KamOHRwZ2otN09mdXc/view?usp=sharing" target="_blank" class="btn btn-primary">Project Report</a> 
+     	</div> 
+
+     	<div class="card-footer"> 
+     		<small class="text-muted">EDA using Python, Pandas and Seaborn</small> 
+     	</div> 
+    </div>
+    </td>
+	</tr>
+    </table>
+
+
+
+    <br>
+    <h1>More</h1>
+    <ul>
+    	<li class="list-group-item">
+	     	<div class="d-flex w-100 justify-content-between">
+	     		<h5>Behavioral Risk Factor Surveillance System 2013: Exploratory Data Analysis</h5>
+	     		<a target="_blank" href="/portfolio/brfss2013_eda">Notebook</a>
+	     	</div>
+	     	<p>Analysis of the BRFSS-2013 data set using R, focusing on investigating the relationship between education and eating habits, sleep and mental health, and smoking, drinking and general health of a person.</p> 
+	     	<p class="list-group-skills">Skills: R, Descriptive Statistics, ggplot, dplyr</p> 
+	     </li> 
+
+	     <li class="list-group-item">
+	     	<div class="d-flex w-100 justify-content-between">
+	     		<h5>3-way Sentiment Analysis for Tweets</h5>
+	     		<a target="_blank" href="/portfolio/sentiment_analysis_tweets">Notebook</a>
+	     	</div>
+	     	<p>3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.</p> 
+	     	<p class="list-group-skills">Skills: Python, NLP, Scikit-learn</p>
+	     </li> 
+	     <li class="list-group-item">
+	     	<div class="d-flex w-100 justify-content-between">
+	     		<h5>Inferential Statistics: Do men or women oppose sex education?</h5>
+	     		<a target="_blank" href="/portfolio/gss_inferential">Notebook</a>
+	     	</div>
+	     	<p>Analysing the GSS (General Social Survey) dataset using R to infer if, in the year 2012, were men, of 18 years or above in the United States, more likely to oppose sex education in public schools than women.</p> 
+	     	<p class="list-group-skills">Skills: R, Hypothesis Testing, ggplot, dplyr</p>
+	     </li> 
+    </ul>
+
+
 {% endblock %}

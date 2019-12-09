@@ -27,7 +27,9 @@
 				<a href="edit_article/{{article.id}}" class="btn btn-default pull-right">Edit</a>
 			</td>
 			<td>
-				<a href="#" class="btn btn-danger pullright">Delete</a>
+				<form action="{{ url_for('delete_article', id=article.id) }}" method="post"></form>
+				<input type="hidden" name="_method" value="DELETE">
+				<input type="submit" value="Delete" class="btn btn-danger">
 			</td>
 
 			<td></td>
